@@ -66,3 +66,5 @@ server.listen(PORT, () => {
 //   method: 'POST',
 //   body: JSON.stringify({ id: 3, name: 'Ryan Dahl' })
 // })
+// .then((res) => res.json()) //THIS pipes the request to the response.
+// .then((friend) => console.log(friend))
