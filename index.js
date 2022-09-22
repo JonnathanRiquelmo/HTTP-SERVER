@@ -59,3 +59,10 @@ server.on('request', (req, res) => {
 server.listen(PORT, () => {
   console.log(`Listening on port ${PORT}...`);
 }); //127.0.0.1 => localhost
+
+
+// EXAMPLE: using the POST method to send data to the server, it must be executed from the browser console being on the page 'http://localhost:3000'
+// fetch('http://localhost:3000/friends', {
+//   method: 'POST',
+//   body: JSON.stringify({ id: 3, name: 'Ryan Dahl' })
+// })
